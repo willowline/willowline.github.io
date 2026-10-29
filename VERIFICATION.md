@@ -11,4 +11,5 @@
 - 외부 링크 새 창에는 noopener noreferrer 적용.
 - 가격과 원장 정보는 사용자 제공 정보와 대조.
 - 본문 글자 수 약 59% 감소.
-- GitHub Pages 공개 배포 후 최종 확인 예정.
+- 320px 작은 모바일 화면에서 가로 넘침 없음 확인.
+- 공개 대상: https://willowline.github.io/ (GitHub Pages).
