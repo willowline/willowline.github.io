@@ -2,6 +2,15 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f2e9"><meta name="robots" content="noindex,nofollow">
+<script>
+if('scrollRestoration' in history)history.scrollRestoration='manual';
+const refreshStartsAtTop=performance.getEntriesByType('navigation')[0]?.type==='reload';
+if(refreshStartsAtTop){
+ if(location.hash)history.replaceState(history.state,'',location.pathname+location.search);
+ const resetTop=()=>window.scrollTo({top:0,left:0,behavior:'instant'});
+ resetTop();window.addEventListener('pageshow',()=>{resetTop();requestAnimationFrame(resetTop)});
+}
+</script>
 <title>윌로우라인 | 원래 내 눈썹처럼, 자연스럽게</title>
 <meta name="description" content="광주 서구 1:1 맞춤 눈썹 디자인. 윌로우라인의 실제 시술 사례와 가격, 원장님의 디자인 기준을 확인하고 상담하세요.">
 <meta property="og:type" content="website"><meta property="og:locale" content="ko_KR"><meta property="og:title" content="윌로우라인 | 원래 내 눈썹처럼, 자연스럽게"><meta property="og:description" content="본래의 결과 얼굴의 균형을 살피는 1:1 맞춤 눈썹 디자인."><meta property="og:url" content="https://willowline.github.io/"><meta property="og:image" content="https://willowline.github.io/brow-detail.jpg"><link rel="canonical" href="https://willowline.github.io/"><link rel="icon" href="./favicon.svg" type="image/svg+xml">
@@ -15,6 +24,14 @@
 
 .reassurance{padding-bottom:62px;text-align:center}.reassure-intro{font-size:14px;line-height:2.1;margin-top:24px}.concern-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:38px;text-align:left;margin-top:45px}.concern-grid>div{border-top:1px solid var(--line);padding-top:22px}.concern-grid span,.step-number{font:italic 28px var(--latin);color:#879279}.concern-grid h3{font-size:17px;margin:12px 0}.concern-grid p{font-size:13px;line-height:2}.journey{padding-bottom:0}.journey-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:35px 65px;margin-top:40px}.journey-grid article{border-top:1px solid var(--line);padding-top:22px}.journey-grid h3{font-size:20px;margin:12px 0}.journey-grid p{font-size:13px;line-height:2}.journey-grid small{display:block;font-size:11px;color:var(--green);margin-top:16px}.care-note{background:var(--paper);padding:30px 35px;margin-top:45px}.care-note h3{font-family:var(--serif);font-size:22px;margin-bottom:12px}.care-note p{font-size:13px;line-height:2}.approach-photo{align-self:start;position:sticky;top:110px}.approach-copy .intro{margin:18px 0}.reassurance+.section{padding-top:35px}
 @media(max-width:600px){.reassurance{padding-bottom:32px}.reassure-intro{font-size:12px;margin-top:20px}.concern-grid{grid-template-columns:1fr;gap:23px;margin-top:30px}.concern-grid>div{padding-top:16px}.concern-grid span{font-size:23px}.concern-grid h3{font-size:16px;margin:8px 0}.concern-grid p{font-size:12px}.journey{padding-bottom:0}.journey-grid{grid-template-columns:1fr;gap:25px;margin-top:25px}.journey-grid article{padding-top:18px}.journey-grid h3{font-size:18px;margin:10px 0}.journey-grid p{font-size:12px}.journey-grid small{font-size:10px;margin-top:12px}.care-note{padding:25px 22px;margin-top:30px}.care-note h3{font-size:20px}.care-note p{font-size:12px}.approach-photo{position:relative;top:auto}.approach-copy .intro{font-size:12px;margin:18px 0}.reassurance+.section{padding-top:25px}}
+
+/* 화면 하단에 항상 보이는 상담 채널 */
+.mobile-bar{position:fixed;bottom:18px;left:50%;right:auto;transform:translateX(-50%);z-index:25;display:grid;grid-template-columns:1fr 1fr;width:min(720px,calc(100% - 48px));padding-bottom:0;background:var(--green);box-shadow:0 5px 28px #25301e24;border:1px solid #cdd1c1}.mobile-bar a{min-height:60px;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--ivory);transition:background .25s ease}.mobile-bar a:first-child{background:var(--ivory);color:var(--green)}.mobile-bar a:first-child:hover{background:#e8e7db}.mobile-bar a:last-child:hover{background:#3c4936}.footer{padding-bottom:120px}
+/* 은은한 등장 효과: 아래 내용을 가리지 않도록 한 번만 재생 */
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .85s ease,transform .85s cubic-bezier(.2,.65,.3,1);transition-delay:var(--reveal-delay,0ms)}.reveal.is-visible,.reveal:focus-within{opacity:1;transform:none}.hero-copy .eyebrow{animation:soft-enter .9s ease both}.hero h1{animation:soft-enter 1.1s .12s ease both}.hero-copy>p{animation:soft-enter 1.1s .22s ease both}.hero .btn{animation:soft-enter 1.1s .32s ease both}.hero-visual{animation:soft-light 1.5s ease both}.btn{transition:background .25s ease,box-shadow .25s ease}.btn:hover{box-shadow:0 5px 18px #30372d16}.text-link{transition:color .25s ease}.text-link:hover{color:#7b8868}
+@keyframes soft-enter{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}@keyframes soft-light{from{opacity:.45}to{opacity:1}}
+@media(max-width:600px){.mobile-bar{bottom:0;left:0;right:0;transform:none;width:100%;border:0;padding-bottom:env(safe-area-inset-bottom)}.mobile-bar a{min-height:56px;font-size:12px}.mobile-bar a:first-child{border-top:1px solid var(--line)}.footer{padding-bottom:100px}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.hero-copy .eyebrow,.hero h1,.hero-copy>p,.hero .btn,.hero-visual{animation:none}.mobile-bar a,.btn{transition:none}}
 </style>
 </head>
 <body>
@@ -41,6 +58,13 @@
 <div class="mobile-bar" aria-label="빠른 상담과 위치 확인"><a href="https://map.naver.com/p/entry/place/2011356206?placePath=%2Fhome" target="_blank" rel="noopener noreferrer">네이버 플레이스 ↗</a><a href="https://pf.kakao.com/_fxhxkMG" target="_blank" rel="noopener noreferrer">카카오톡 상담·예약 ↗</a></div>
 <dialog id="photo-dialog" aria-label="윌로우라인 실제 시술 사진"><button type="button" aria-label="사진 닫기">×</button><img src="./result-01.jpg" alt=""><p></p></dialog>
 <script>
+const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+if(!reducedMotion.matches&&'IntersectionObserver' in window){
+ const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.08,rootMargin:'0px 0px -24px 0px'});
+ const targets=document.querySelectorAll('.reassurance h2,.reassure-intro,.concern-grid>div,.head,.case,.approach-photo,.approach-copy,.journey-grid article,.care-note,.price-intro,.prices,.faq-grid,.location-photo,.location-grid>div,.closing h2,.closing p');
+ targets.forEach(el=>{if(el.matches('.case,.concern-grid>div'))el.style.setProperty('--reveal-delay',`${Array.from(el.parentElement.children).indexOf(el)*70}ms`);el.classList.add('reveal');observer.observe(el)});
+ reducedMotion.addEventListener('change',event=>{if(event.matches){observer.disconnect();targets.forEach(el=>el.classList.add('is-visible'))}});
+}
 const modal=document.querySelector('#photo-dialog');let originButton;
 document.querySelectorAll('[data-photo]').forEach(button=>button.addEventListener('click',()=>{originButton=button;const image=modal.querySelector('img');image.src=button.dataset.photo;image.alt=button.querySelector('img').alt;modal.querySelector('p').textContent=button.dataset.caption;modal.showModal()}));
 modal.querySelector('button').addEventListener('click',()=>modal.close());modal.addEventListener('click',event=>{if(event.target===modal){const box=modal.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)modal.close()}});modal.addEventListener('close',()=>originButton?.focus());
