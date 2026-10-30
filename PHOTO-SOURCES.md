@@ -25,3 +25,5 @@
 
 - natural-case-03.jpg / natural-case-04.jpg: 기존 허용된 시술사진 폴더의 여성 고객 전후 비교.
 - brow-detail.jpg: 기존 허용된 결 디테일 사진. 전후 사진과 구분해 표시.
+
+2026-10-30: men-hero-before-after.png — 사용자가 직접 제공하고 첫 화면 교체를 요청한 남성 전후 사진. 원본 변형 없이 좌우 각각 표시.
