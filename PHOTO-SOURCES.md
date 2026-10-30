@@ -19,3 +19,9 @@
 - men-case-03.jpg / men-case-04.jpg: 시술사진
 
 웹 크기 최적화만 적용하며 눈썹 결과·색감은 보정하지 않습니다.
+
+
+## 자연눈썹 흐름 개편
+
+- natural-case-03.jpg / natural-case-04.jpg: 기존 허용된 시술사진 폴더의 여성 고객 전후 비교.
+- brow-detail.jpg: 기존 허용된 결 디테일 사진. 전후 사진과 구분해 표시.
