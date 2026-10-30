@@ -18,3 +18,6 @@
 
 /* Updated hero comparison and event emphasis */
 .compare-crop.horizontal img{width:200%;height:auto;top:0;left:0;object-fit:initial}.compare-crop.horizontal.after img{top:0;left:-100%}.hero-event{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 16px;margin:26px 0 20px;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.hero-event>span{font-size:clamp(17px,2vw,22px);font-weight:700}.hero-event>strong{font-size:clamp(38px,4.5vw,58px);font-weight:700;letter-spacing:-.04em;line-height:1.1}.hero-event>del{font-size:13px;opacity:.65}.men-panel .hero-event{justify-content:center;border-color:#ffffff38;color:#fff}.men-panel .hero-event>strong{color:#fff}.offer-label{font-size:20px;font-weight:700}
+
+/* Keep eyebrow and eye area visible in the horizontal comparison. */
+.compare-crop.horizontal img,.compare-crop.horizontal.after img{top:-55%}
