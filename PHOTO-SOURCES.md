@@ -9,3 +9,13 @@
 - result-04.jpg: 시술사진 / KakaoTalk_Photo_2026-10-29-16-52-37 009.jpeg
 - consultation.jpg: 시술하는 모습사진 / KakaoTalk_Photo_2026-10-29-16-43-51 001.jpeg
 - studio.jpg: 매장사진 / KakaoTalk_Photo_2026-10-29-16-43-03 001.jpeg
+
+## 페이지 분리 시 추가한 자료
+
+같은 허용 폴더의 실제 시술·공간 사진에서 선택했습니다.
+
+- process-work.jpg / process-talk.jpg / process-detail.jpg: 시술하는 모습사진
+- space-treatment.jpg / space-detail.jpg: 매장사진
+- men-case-03.jpg / men-case-04.jpg: 시술사진
+
+웹 크기 최적화만 적용하며 눈썹 결과·색감은 보정하지 않습니다.
