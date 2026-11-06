@@ -1,0 +1,84 @@
+/* Reference-led section rhythm using Willow Line's own assets and content. */
+.reference-layout{--studio-dark:#30382e;--studio-soft:#eeece4;--studio-line:rgba(77,91,70,.2)}
+.reference-layout.men{--studio-dark:#354943;--studio-soft:#e7ecea;--studio-line:rgba(67,86,80,.2)}
+.reference-layout .section{padding:86px 0}
+.reference-layout .head{margin-bottom:34px}
+.reference-layout .eyebrow{font-size:10px;letter-spacing:.22em}
+.reference-layout .title{font-size:clamp(26px,3.15vw,42px);line-height:1.5;font-weight:500;letter-spacing:-.045em}
+.reference-layout .statement{font-size:clamp(28px,3.5vw,46px);line-height:1.45;font-weight:500;letter-spacing:-.045em}
+.reference-layout .desc,.reference-layout p{line-height:1.95}
+.reference-layout .gallery-section{background:var(--studio-dark);color:#f8f7f2}
+.reference-layout .gallery-section .head{display:grid;grid-template-columns:1.2fr 1fr;align-items:end;gap:14px 48px}
+.reference-layout .gallery-section .head>.eyebrow{grid-column:1/-1}
+.reference-layout .gallery-section .desc{color:#d4dbd0;font-size:13px}
+.reference-layout .gallery-section .filters{margin:30px 0}
+.reference-layout .gallery-section .case{background:transparent;border:1px solid #ffffff26}
+.reference-layout .gallery-section .case-meta{padding:13px 14px;color:#e4e9df;font-size:10px}
+.reference-layout .gallery-section .case-photo img{aspect-ratio:3/4;object-fit:contain;background:#e5e4de}
+.reference-layout .gallery-section .note{color:#c9d1c4;margin-top:28px;font-size:10px}
+.reference-layout .more{margin:30px auto 0;display:block}
+.reference-layout .director-grid{display:grid;grid-template-columns:minmax(0,.83fr) minmax(0,1.17fr);gap:64px;align-items:center}
+.reference-layout .director-photo{margin:0}
+.reference-layout .director-photo img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 34%;display:block}
+.reference-layout .director-photo figcaption{padding-top:16px;font-size:11px;color:var(--muted);line-height:1.9}
+.reference-layout .director-photo figcaption strong{display:block;font-size:16px;color:var(--ink);font-weight:600}
+.reference-layout .director-photo figcaption span{display:block}
+.reference-layout .director-content .eyebrow{display:block;margin-bottom:20px}
+.reference-layout .director-content .statement{margin:0 0 24px}
+.reference-layout .director-content p{font-size:13px;color:var(--muted)}
+.reference-layout .director-content .director-lead{font-size:17px;color:var(--ink);font-weight:500}
+.reference-layout .director-facts{margin:30px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:0 20px}
+.reference-layout .director-facts>div{padding:17px 0;border-top:1px solid var(--studio-line)}
+.reference-layout .director-facts dt{font-size:13px;font-weight:600}
+.reference-layout .director-facts dd{font-size:11px;color:var(--muted);margin:6px 0 0;line-height:1.7}
+.reference-layout .story-more{margin-top:12px;font-size:12px;border-top:1px solid var(--studio-line);padding-top:14px}
+.reference-layout .story-more summary{cursor:pointer;font-size:12px}
+.reference-layout .philosophy{background:var(--studio-dark);color:#f8f7f2}
+.reference-layout .philosophy-layout{display:grid;grid-template-columns:1fr 1.85fr;gap:45px}
+.reference-layout .philosophy-layout p{font-size:14px;color:#d7ded2;max-width:620px}
+.reference-layout .philosophy .statement{margin:0 0 30px}
+.reference-layout .concerns-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 30px}
+.reference-layout .concern{border-top:1px solid var(--studio-line);padding:24px 0 26px}
+.reference-layout .concern>span{font-size:10px;color:var(--muted)}
+.reference-layout .concern h3{font-size:18px;font-weight:500;margin:12px 0}
+.reference-layout .concern p{font-size:12px;color:var(--muted);margin:0}
+.reference-layout .reviews{background:var(--studio-soft);padding:58px 0}
+.reference-layout .review-layout{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.reference-layout .review-layout p{font-size:13px;color:var(--muted)}
+.reference-layout .process{background:var(--bg)}
+.reference-layout .process-photos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0 0 32px}
+.reference-layout .process-photos figure{margin:0;min-width:0}
+.reference-layout .process-photos figure>img,.reference-layout .process-photos figure>video.process-video{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border-radius:4px}
+.reference-layout .process-photos figcaption{margin-top:10px;font-size:10px;color:var(--muted)}
+.reference-layout .steps{gap:24px}
+.reference-layout .step h3{font-size:16px;font-weight:500}
+.reference-layout .step p{font-size:12px}
+.reference-layout #price{background:var(--studio-dark);color:#f8f7f2}
+.reference-layout #price .price-grid{gap:48px;align-items:start}
+.reference-layout #price .desc,.reference-layout #price .note{color:#cdd5c8}
+.reference-layout #price .offer{padding:30px;border:1px solid #ffffff4a;border-radius:12px;background:#ffffff06;color:#f8f7f2}
+.reference-layout #price .offer h3{font-size:22px;font-weight:500}
+.reference-layout #price .offer-type,.reference-layout #price .offer-label{color:#d1d8cc;font-size:12px}
+.reference-layout #price .offer-price strong{font-size:40px;color:#fff}
+.reference-layout #price .pill{color:#f8f7f2;border-color:#c7cfc0}
+.reference-layout #price .prices,.reference-layout #price summary{color:#f8f7f2}
+.reference-layout .space{background:var(--bg)}
+.reference-layout .space-grid{gap:16px}
+.reference-layout .space-grid img{aspect-ratio:4/3;object-fit:cover;border-radius:4px}
+.reference-layout .location{background:var(--studio-soft)}
+.reference-layout .faq,.reference-layout .natural-objections{background:var(--bg)}
+.reference-layout .faq .title,.reference-layout .natural-objections .title{font-size:30px}
+.reference-layout .reserve{background:var(--studio-soft)}
+.reference-layout .reserve .title{font-weight:500}
+.reference-layout .reserve .desc{font-size:14px}
+.reference-layout .natural-objections .review-panel{display:none}
+.reference-layout .mobile-only{display:none}
+.reference-layout.men .director-section .director-grid{grid-template-columns:1fr 1fr;gap:80px}
+.reference-layout.men .men-event{margin:24px 0;font-size:15px}
+.reference-layout.men .men-event>span{font-size:15px}
+.reference-layout.men .men-event>strong{font-size:29px}
+@media(min-width:851px){.reference-layout.natural .hero{padding:55px 0 65px}.reference-layout.natural .hero-grid{align-items:center}.reference-layout.natural .hero-media{aspect-ratio:4/3}.reference-layout.natural .hero-media video{width:100%;height:100%;object-fit:cover}.reference-layout.natural .hero-copy-lines{letter-spacing:-.055em}}
+@media(max-width:850px){.reference-layout .section{padding:52px 0}.reference-layout .head{margin-bottom:25px}.reference-layout .gallery-section .head{display:block}.reference-layout .gallery-section .head .title{margin:15px 0}.reference-layout .gallery-section .desc{font-size:12px}.reference-layout .director-grid,.reference-layout.men .director-section .director-grid{grid-template-columns:1fr;gap:30px}.reference-layout .director-photo{max-width:440px;width:100%;margin:auto}.reference-layout .director-content .statement{font-size:30px}.reference-layout .director-facts{margin-top:24px}.reference-layout .philosophy-layout,.reference-layout .review-layout{grid-template-columns:1fr;gap:22px}.reference-layout .philosophy .statement{font-size:29px}.reference-layout .concerns-grid{gap:0 20px}.reference-layout .concern h3{font-size:16px}.reference-layout .concern p{font-size:11px}.reference-layout .reviews{padding:38px 0}.reference-layout .process-photos{gap:10px}.reference-layout .process-photos figcaption{font-size:9px;line-height:1.7}.reference-layout #price .price-grid{gap:24px}.reference-layout #price .offer{padding:24px}.reference-layout .space-grid{gap:10px}.reference-layout .mobile-only{display:block}}
+@media(max-width:420px){.reference-layout .concerns-grid{grid-template-columns:1fr}.reference-layout .director-facts{grid-template-columns:1fr}.reference-layout .gallery-grid{gap:12px}.reference-layout .process-photos{gap:8px}}
+.reference-layout .gallery-section .more{width:fit-content;min-width:180px;border-radius:999px;padding:13px 25px;border:1px solid #ffffff55;color:#f7f7f0;background:transparent}
+.reference-layout #price .eyebrow,.reference-layout #price .offer ul,.reference-layout #price .offer ul li{color:#d8dfd2}

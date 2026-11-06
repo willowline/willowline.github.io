@@ -27,3 +27,8 @@
 - brow-detail.jpg: 기존 허용된 결 디테일 사진. 전후 사진과 구분해 표시.
 
 2026-10-30: men-hero-before-after.png — 사용자가 직접 제공하고 첫 화면 교체를 요청한 남성 전후 사진. 원본 변형 없이 좌우 각각 표시.
+
+2026-11-06: gallery-women-01~08.jpg 및 gallery-men-01~08.jpg는 전달받은 시술사진 중 선택한 실제 사례. 각 8장, 원본 내용 보정 없이 크기만 최적화.
+
+
+director-natural.jpg: 원장님프로필/KakaoTalk_Photo_2026-11-06-16-08-55 001.jpeg. director-men.jpg: 동일 폴더 002.jpeg. 사용자 제공 류주현 원장 프로필.
