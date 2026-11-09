@@ -84,3 +84,11 @@
 .reference-layout #price .eyebrow,.reference-layout #price .offer ul,.reference-layout #price .offer ul li{color:#d8dfd2}
 
 .reference-layout .hero-event strong .price-from{font-size:.55em;font-weight:500;letter-spacing:0;margin-left:.12em;display:inline;white-space:nowrap}.reference-layout .motion-reveal{opacity:0;transform:translateY(22px);transition:opacity .75s ease var(--motion-delay,0ms),transform .75s cubic-bezier(.2,.7,.3,1) var(--motion-delay,0ms)}.reference-layout .motion-reveal.motion-visible,.reference-layout .motion-reveal:focus-within{opacity:1;transform:none}.reference-layout .process-photos figure:nth-child(3) video{filter:brightness(.82)}@media(prefers-reduced-motion:reduce){.reference-layout .motion-reveal{transform:none;transition:opacity .35s ease}.reference-layout .hero-copy-lines,.reference-layout .hero-experience,.reference-layout .hero .actions,.reference-layout .hero .crosslink{animation:none!important}}
+
+/* Unified studio motion. No blanket transition cancellation. */
+.reference-layout .motion-reveal{transition:opacity .9s ease var(--motion-delay,0ms),transform .9s cubic-bezier(.2,.65,.3,1) var(--motion-delay,0ms);transform:translateY(28px)}
+.reference-layout .motion-reveal.motion-visible,.reference-layout .motion-reveal:focus-within{opacity:1;transform:translateY(0)}
+.reference-layout .hero-copy-lines,.reference-layout .hero-experience,.reference-layout .hero .crosslink,.reference-layout .hero .actions{animation:none!important}
+.reference-layout .pill{transition:background-color .3s ease,color .3s ease,box-shadow .3s ease,translate .3s ease}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){.reference-layout .pill:hover{translate:0 -2px;box-shadow:0 6px 18px #24342812}.reference-layout .case-photo img,.reference-layout .space-grid img,.reference-layout .director-photo img{transition:scale 1.1s cubic-bezier(.2,.65,.3,1)}.reference-layout .case:hover .case-photo img{scale:1.025}.reference-layout .director-photo,.reference-layout .case-photo{overflow:hidden}}
+@media(prefers-reduced-motion:reduce){.reference-layout .motion-reveal{transform:none;transition:opacity .65s ease var(--motion-delay,0ms)!important}.reference-layout .motion-reveal.motion-visible{transform:none}.reference-layout .pill{transition:background-color .25s ease,color .25s ease}}
