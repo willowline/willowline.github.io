@@ -92,3 +92,12 @@
 .reference-layout .pill{transition:background-color .3s ease,color .3s ease,box-shadow .3s ease,translate .3s ease}
 @media(hover:hover) and (prefers-reduced-motion:no-preference){.reference-layout .pill:hover{translate:0 -2px;box-shadow:0 6px 18px #24342812}.reference-layout .case-photo img,.reference-layout .space-grid img,.reference-layout .director-photo img{transition:scale 1.1s cubic-bezier(.2,.65,.3,1)}.reference-layout .case:hover .case-photo img{scale:1.025}.reference-layout .director-photo,.reference-layout .case-photo{overflow:hidden}}
 @media(prefers-reduced-motion:reduce){.reference-layout .motion-reveal{transform:none;transition:opacity .65s ease var(--motion-delay,0ms)!important}.reference-layout .motion-reveal.motion-visible{transform:none}.reference-layout .pill{transition:background-color .25s ease,color .25s ease}}
+
+/* Varied, repeatable studio entrances. */
+.reference-layout .motion-reveal{transform:translateY(42px);transition:opacity .85s ease var(--motion-delay,0ms),transform 1.05s cubic-bezier(.16,1,.3,1) var(--motion-delay,0ms)}
+.reference-layout .motion-reveal[data-motion="left"]{transform:translateX(-42px)}
+.reference-layout .motion-reveal[data-motion="right"]{transform:translateX(42px)}
+.reference-layout .motion-reveal[data-motion="zoom"]{transform:translateY(24px) scale(.94);transform-origin:center}
+.reference-layout .motion-reveal.motion-visible,.reference-layout .motion-reveal:focus-within{opacity:1;transform:translate(0,0) scale(1)}
+.reference-layout main{overflow-x:clip}
+@media(prefers-reduced-motion:reduce){.reference-layout .motion-reveal[data-motion]{transform:none;transition:opacity .8s ease var(--motion-delay,0ms)!important}.reference-layout .motion-reveal.motion-visible{transform:none}}
