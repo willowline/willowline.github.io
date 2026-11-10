@@ -1,0 +1,24 @@
+/* Natural page review presentation and final consultation colour. */
+.reference-layout.natural .client-reviews{background:#f5f4ef;padding:75px 0 65px}
+.reference-layout.natural .review-heading{text-align:center;display:block;margin-bottom:40px}
+.review-heading .eyebrow{display:block;font-size:11px;letter-spacing:2px;margin-bottom:20px}
+.review-heading .desc{margin-top:20px}
+.review-carousel{max-width:900px;margin:auto;text-align:center}
+.review-slide[hidden]{display:none}
+.review-bubble{position:relative;background:#30392d;color:#fff;border-radius:24px;padding:30px 40px;box-shadow:0 18px 35px #26332314;min-height:285px;text-align:left;animation:reviewFade .45s ease}
+.review-bubble:after{content:'';position:absolute;bottom:-11px;left:calc(50% - 12px);width:24px;height:24px;background:#30392d;transform:rotate(45deg);border-radius:3px}
+.quote-mark{font-family:Georgia,serif;font-size:64px;height:52px;display:block;line-height:1}
+.review-bubble blockquote{margin:10px 0 24px;font-size:21px;line-height:1.85;font-weight:500;min-height:80px;word-break:keep-all}
+.review-credit{border-top:1px solid #ffffff30;padding-top:20px;text-align:center;font-size:11px;line-height:1.9}
+.review-credit strong,.review-credit span{display:block}.review-credit span{color:#c7cec3}
+.review-controls{display:flex;justify-content:center;align-items:center;gap:28px;margin:35px 0 20px}
+.review-controls>button{width:44px;height:44px;border:1px solid #9da695;border-radius:50%;background:transparent;color:#30392d;font-size:24px;cursor:pointer}
+.review-dots{display:flex;gap:12px}.review-dots button{border:0;border-radius:50%;width:9px;height:9px;padding:0;background:#c8cdc3;cursor:pointer}.review-dots button[aria-pressed=true]{background:#4d5b46}
+.review-source{font-size:11px}.filters a.filter{text-decoration:none;display:inline-flex;align-items:center}
+.reference-layout.natural .reserve{background:#4d5b46;color:#fff}
+.reference-layout.natural .reserve .eyebrow,.reference-layout.natural .reserve .desc,.reference-layout.natural .reserve small{color:#dce3d5}
+.reference-layout.natural .reserve .pill{border-color:#e1e7da;color:#fff}
+.reference-layout.natural .reserve .pill.solid{background:#f5f2e9;color:#4d5b46;border-color:#f5f2e9}
+@keyframes reviewFade{from{opacity:.3}to{opacity:1}}
+@media(max-width:850px){.reference-layout.natural .client-reviews{padding:50px 0}.review-bubble{padding:25px 24px;border-radius:20px;min-height:340px}.review-bubble blockquote{font-size:17px;min-height:125px;line-height:1.9}.review-heading .title{font-size:27px}.review-heading .desc{font-size:12px}.review-credit{font-size:10px}.review-controls{gap:25px}}
+@media(prefers-reduced-motion:reduce){.review-bubble{animation:none}}
