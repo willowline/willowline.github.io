@@ -39,3 +39,18 @@
 .natural.reference-layout .offer-price .event-bounce{animation:none!important}
 @media(max-width:850px){.natural.reference-layout .hero .actions{display:flex;justify-content:center}.natural.reference-layout .hero .actions .booking-bounce{width:fit-content;min-height:48px;padding:13px 27px}}
 @media(prefers-reduced-motion:reduce){.natural.reference-layout .booking-bounce,.natural.reference-layout .hero-event strong,.natural.reference-layout .offer-price{animation:none!important}}
+
+/* motion58: requested site motion is consistent across device motion settings. */
+body.natural.reference-layout .hero .hero-event strong{animation:studioPriceBounce 4.6s ease-in-out infinite!important}
+body.natural.reference-layout .hero .actions .booking-bounce,body.natural.reference-layout #price .booking-bounce{animation:studioLabelBounce 4.8s ease-in-out infinite!important}
+body.natural.reference-layout #price .offer-price{animation:studioPriceBounce 4.6s .3s ease-in-out infinite!important}
+body.natural.reference-layout #price .offer-price strong{animation:none!important}
+body.natural.reference-layout .booking .booking-label{animation:studioLabelBounce 5s ease-in-out infinite!important}
+body.natural.reference-layout .booking .pill:nth-child(2) .booking-label{animation-delay:.4s!important}
+body.natural.reference-layout .motion-reveal[data-motion]{transform:translateY(24px);transition:opacity .8s ease var(--motion-delay,0ms),transform .95s cubic-bezier(.16,1,.3,1) var(--motion-delay,0ms)!important}
+body.natural.reference-layout .motion-reveal[data-motion="left"]{transform:translateX(-24px)}
+body.natural.reference-layout .motion-reveal[data-motion="right"]{transform:translateX(24px)}
+body.natural.reference-layout .motion-reveal[data-motion="zoom"]{transform:translateY(16px) scale(.96)}
+body.natural.reference-layout .motion-reveal[data-motion="picture"]{transform:translateY(16px) scale(.97);clip-path:none}
+body.natural.reference-layout .motion-reveal.motion-visible,body.natural.reference-layout .motion-reveal:focus-within{opacity:1;transform:none}
+@media(max-width:850px){body.natural.reference-layout .hero .hero-media{transform:none!important;opacity:1!important}}
