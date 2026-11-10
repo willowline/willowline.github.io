@@ -54,3 +54,6 @@ body.natural.reference-layout .motion-reveal[data-motion="zoom"]{transform:trans
 body.natural.reference-layout .motion-reveal[data-motion="picture"]{transform:translateY(16px) scale(.97);clip-path:none}
 body.natural.reference-layout .motion-reveal.motion-visible,body.natural.reference-layout .motion-reveal:focus-within{opacity:1;transform:none}
 @media(max-width:850px){body.natural.reference-layout .hero .hero-media{transform:none!important;opacity:1!important}}
+
+/* hero62: lower mobile hero copy by 40px; desktop unchanged. */
+@media(max-width:850px){body.natural.reference-layout .hero-grid>div{padding-top:135px}}
