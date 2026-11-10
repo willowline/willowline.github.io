@@ -30,3 +30,12 @@
 .natural.reference-layout .client-reviews{padding:54px 0 42px}
 .natural.reference-layout .review-heading{margin-bottom:28px}
 @media(max-width:850px){.natural .review-bubble{padding:22px 22px 20px}.natural .review-bubble blockquote{font-size:14px;line-height:1.85;margin-bottom:20px}.natural .quote-mark{font-size:44px;height:32px}.natural.reference-layout .client-reviews{padding:40px 0 32px}.natural .review-controls{margin-top:24px}}
+
+/* booking57: compact booking CTA with independent, gentle bounce. */
+.natural.reference-layout .hero .actions .booking-bounce{width:fit-content;min-width:0;padding:15px 28px;margin-inline:auto;flex:none;display:inline-flex}
+.natural.reference-layout .booking-bounce{animation:studioLabelBounce 4.8s ease-in-out infinite!important}
+.natural.reference-layout .hero-event strong{display:inline-block;animation:studioPriceBounce 4.6s ease-in-out infinite!important}
+.natural.reference-layout .offer-price{animation:studioPriceBounce 4.6s .3s ease-in-out infinite;transform-origin:left bottom;width:fit-content}
+.natural.reference-layout .offer-price .event-bounce{animation:none!important}
+@media(max-width:850px){.natural.reference-layout .hero .actions{display:flex;justify-content:center}.natural.reference-layout .hero .actions .booking-bounce{width:fit-content;min-height:48px;padding:13px 27px}}
+@media(prefers-reduced-motion:reduce){.natural.reference-layout .booking-bounce,.natural.reference-layout .hero-event strong,.natural.reference-layout .offer-price{animation:none!important}}
