@@ -1,0 +1,18 @@
+/* Only the natural eyebrow page imports this palette. */
+.natural.reference-layout{--bg:#f5f2e9;--green:#4d5b46;--studio-dark:#b7bda7;--studio-soft:#eceee4;--studio-line:#4d5b4633}
+.natural.reference-layout .gallery-section,.natural.reference-layout .philosophy,.natural.reference-layout #price,.natural.reference-layout .reserve{background:#b7bda7;color:#30372d}
+.natural.reference-layout .gallery-section .desc,.natural.reference-layout .gallery-section .case-meta,.natural.reference-layout .philosophy p,.natural.reference-layout #price .desc,.natural.reference-layout #price .note,.natural.reference-layout #price .eyebrow,.natural.reference-layout #price .offer-type,.natural.reference-layout #price .offer-label,.natural.reference-layout #price .offer ul,.natural.reference-layout #price .offer ul li,.natural.reference-layout #price .prices,.natural.reference-layout #price summary,.natural.reference-layout .reserve .eyebrow,.natural.reference-layout .reserve .desc,.natural.reference-layout .reserve small{color:#3f4b39}
+.natural.reference-layout .philosophy .text-link{color:#30372d!important;border-color:#4d5b4655!important}
+.natural.reference-layout .gallery-section .case{border-color:#4d5b4633}.natural.reference-layout .gallery-section .filter,.natural.reference-layout .gallery-section .more{color:#30372d;border-color:#4d5b4677}.natural.reference-layout .gallery-section .filter[aria-pressed=true]{background:#f5f2e9;color:#4d5b46}
+.natural.reference-layout #price .offer{background:#f5f2e933;color:#30372d;border-color:#4d5b4644}.natural.reference-layout #price .offer-price strong{color:#30372d}
+.natural.reference-layout #price .pill,.natural.reference-layout .reserve .pill{color:#30372d;border-color:#4d5b46}.natural.reference-layout #price .pill.solid,.natural.reference-layout .reserve .pill.solid{background:#4d5b46;color:#fff;border-color:#4d5b46}
+.natural.reference-layout .client-reviews{overflow:hidden}
+.natural .review-carousel{max-width:960px;width:90%;margin:auto}
+.natural .review-window{overflow:visible!important;padding-bottom:8px}
+.natural .review-track{display:grid!important;grid-template-columns:minmax(0,1fr);transform:none!important;align-items:start}
+.natural .review-slide{grid-area:1/1!important;width:100%!important;min-width:0;padding:0 12px;transform:translateX(calc(var(--review-position,0) * 100%));transition:transform .65s cubic-bezier(.22,.65,.3,1),opacity .5s;opacity:.22;pointer-events:none}
+.natural .review-slide.is-current{opacity:1;pointer-events:auto}
+.natural .review-bubble{background:#b7bda7;color:#30372d;min-height:410px;border-radius:26px;box-shadow:0 18px 30px #30372d14}
+.natural .review-bubble:after{background:#b7bda7}.natural .review-credit{border-color:#4d5b4633}.natural .review-credit span{color:#4d5b46}
+@media(max-width:850px){.natural .review-carousel{width:94%}.natural .review-slide{padding:0 7px}.natural .review-bubble{padding:25px 23px;min-height:550px}.natural .review-bubble blockquote{font-size:14px;min-height:350px}.natural.reference-layout .hero-media:after{background:linear-gradient(180deg,#4d5b461f 0%,#4d5b466e 35%,#4d5b46bf 75%,#4d5b46dd 100%)}.natural.reference-layout .hero{background:#4d5b46}}
+@media(prefers-reduced-motion:reduce){.natural .review-slide{transition:opacity .3s}}
