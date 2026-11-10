@@ -16,3 +16,17 @@
 .natural .review-bubble:after{background:#b7bda7}.natural .review-credit{border-color:#4d5b4633}.natural .review-credit span{color:#4d5b46}
 @media(max-width:850px){.natural .review-carousel{width:94%}.natural .review-slide{padding:0 7px}.natural .review-bubble{padding:25px 23px;min-height:550px}.natural .review-bubble blockquote{font-size:14px;min-height:350px}.natural.reference-layout .hero-media:after{background:linear-gradient(180deg,#4d5b461f 0%,#4d5b466e 35%,#4d5b46bf 75%,#4d5b46dd 100%)}.natural.reference-layout .hero{background:#4d5b46}}
 @media(prefers-reduced-motion:reduce){.natural .review-slide{transition:opacity .3s}}
+
+/* compact56: each review fits its own text instead of the longest hidden card. */
+.natural .review-track{position:relative;display:block!important;height:auto!important}
+.natural .review-slide{position:absolute;top:0;left:0;display:block;visibility:hidden}
+.natural .review-slide.is-current{position:relative;visibility:visible}
+.natural .review-slide:not(.is-current){visibility:visible}
+.natural .review-bubble{min-height:0!important;padding:26px 32px 24px}
+.natural .review-bubble blockquote{min-height:0!important;margin:6px 0 22px;font-size:17px;line-height:1.85}
+.natural .quote-mark{height:40px;font-size:52px}
+.natural .review-credit{padding-top:16px}
+.natural .review-controls{margin:28px 0 0}
+.natural.reference-layout .client-reviews{padding:54px 0 42px}
+.natural.reference-layout .review-heading{margin-bottom:28px}
+@media(max-width:850px){.natural .review-bubble{padding:22px 22px 20px}.natural .review-bubble blockquote{font-size:14px;line-height:1.85;margin-bottom:20px}.natural .quote-mark{font-size:44px;height:32px}.natural.reference-layout .client-reviews{padding:40px 0 32px}.natural .review-controls{margin-top:24px}}
