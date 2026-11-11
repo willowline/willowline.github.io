@@ -57,3 +57,6 @@ body.natural.reference-layout .motion-reveal.motion-visible,body.natural.referen
 
 /* hero62: lower mobile hero copy by 40px; desktop unchanged. */
 @media(max-width:850px){body.natural.reference-layout .hero-grid>div{padding-top:135px}}
+
+/* SDR69: clearer mobile hero contrast. */
+@media(max-width:850px){body.natural.reference-layout .hero-media:after{background:linear-gradient(180deg,rgba(27,35,29,.3),rgba(27,35,29,.63) 30%,rgba(27,35,29,.72) 70%,rgba(27,35,29,.8))}body.natural.reference-layout .hero .hero-copy-lines,body.natural.reference-layout .hero .hero-experience{text-shadow:0 2px 8px #0006}}
