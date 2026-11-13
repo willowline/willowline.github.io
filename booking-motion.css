@@ -7,3 +7,5 @@ body.reference-layout .booking>a:nth-child(2) .booking-label{animation-delay:.2s
 body.natural.reference-layout .booking a .booking-label,body.men.reference-layout .booking a .booking-label{animation:willowQuickBounce86 1.6s ease-in-out infinite!important}
 body.natural.reference-layout .booking a:nth-child(2) .booking-label,body.men.reference-layout .booking a:nth-child(2) .booking-label{animation-delay:.2s!important}
 body.natural.reference-layout .hero .actions a.pill,body.men.reference-layout .men-panel .actions a.pill,body.natural.reference-layout .reserve .actions a.pill,body.men.reference-layout .reserve .actions a.pill{animation:willowQuickBounce86 2.2s ease-in-out infinite!important}
+
+body.natural.reference-layout .booking>a.pill,body.men.reference-layout .booking>a.pill{display:flex!important;align-items:center;justify-content:center;text-align:center;font-size:16px!important;font-weight:700!important;padding-left:8px;padding-right:8px}body.reference-layout .booking .booking-label{width:auto;text-align:center;font-weight:700}
