@@ -1,0 +1,6 @@
+@keyframes willowQuickBounce86{0%,42%,100%{transform:translateY(0)}54%{transform:translateY(-7px)}65%{transform:translateY(0)}75%{transform:translateY(-3px)}86%{transform:translateY(0)}}
+body.reference-layout a.pill[href*="pf.kakao.com"],body.reference-layout a.pill[href*="naver.com"],body.reference-layout .technique-card84 strong,body.reference-layout .hero-event strong{display:inline-block;animation:willowQuickBounce86 2.2s ease-in-out infinite!important}
+body.reference-layout .technique-card84:nth-child(2) strong{animation-delay:.18s!important}body.reference-layout .technique-card84:nth-child(3) strong{animation-delay:.36s!important}body.reference-layout .technique-card84:nth-child(4) strong{animation-delay:.54s!important}
+body.reference-layout .booking>a.pill{animation:none!important;transform:none!important}
+body.reference-layout .booking .booking-label{display:inline-block;animation:willowQuickBounce86 1.6s ease-in-out infinite!important}
+body.reference-layout .booking>a:nth-child(2) .booking-label{animation-delay:.2s!important}
