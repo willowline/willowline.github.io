@@ -1,1 +1,10 @@
 body.natural.reference-layout #price.techniques84{position:relative;isolation:isolate;background:#f5f2e9;color:#30372d;padding:64px 0}body.natural.reference-layout #price.techniques84:before{content:"";position:absolute;inset:0;z-index:-1;background:url('./techniques-beige.jpg') center/cover;opacity:.25;pointer-events:none}.technique-grid84{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.technique-card84{display:flex;flex-direction:column;padding:30px;border:1px solid #4d5b4633;border-radius:12px;background:#fff9}.technique-num84{font-size:12px;letter-spacing:2px;color:#6c795f}.technique-card84 h3{font-size:24px;line-height:1.5;margin:10px 0 14px}.technique-card84 p{font-size:16px;line-height:1.9;color:#606958;margin:0 0 22px;word-break:keep-all}.technique-card84 strong{margin-top:auto;font-size:24px;color:#4d5b46}.technique-note84{font-size:13px;color:#6c7563;margin-top:23px}@media(max-width:850px){body.natural.reference-layout #price.techniques84{padding:44px 0}.technique-grid84{gap:10px}.technique-card84{padding:17px 13px}.technique-card84 h3{font-size:17px;margin:8px 0 12px;letter-spacing:-.7px}.technique-card84 p{font-size:13px;line-height:1.85;word-break:normal;margin-bottom:18px}.technique-card84 strong{font-size:18px}.technique-num84{font-size:10px}.technique-note84{font-size:11px}}
+/* Sage tint on the natural texture; men's existing palette retained. */
+body.natural.reference-layout #price.techniques84{background:#dce0d2}
+body.natural.reference-layout #price.techniques84:before{background-image:linear-gradient(#b7bda76b,#b7bda76b),url('./techniques-beige.jpg');opacity:.35;mix-blend-mode:multiply}
+body.men.reference-layout #price.techniques84{background:#435650;color:#f2f4f3;padding:64px 0}
+body.men.reference-layout .technique-card84{background:#f2f4f30a;border-color:#c8d5ce55}
+body.men.reference-layout .technique-num84,body.men.reference-layout .technique-note84{color:#c8d5ce}
+body.men.reference-layout .technique-card84 p{color:#d4dfd9}
+body.men.reference-layout .technique-card84 strong{color:#f2f4f3}
+@media(max-width:850px){body.men.reference-layout #price.techniques84{padding:44px 0}}
